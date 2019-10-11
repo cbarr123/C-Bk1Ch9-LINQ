@@ -95,8 +95,54 @@ namespace linq
                 15, 8, 21, 24, 32, 13, 30, 12, 7, 54, 48, 4, 49, 96
             };
 
-            IEnumerable<int> fourSixMultiples = numbers.Where();
+            IEnumerable<int> fourSixMultiples = numbers.Where(number => number % 4 == 0 || number % 6 == 0).ToList();
+            foreach (int num in fourSixMultiples)
+            {
+                Console.WriteLine(num);
+            }
             
+            // Order these student names alphabetically, in descending order (Z to A)
+            List<string> names = new List<string>()
+            {
+                "Heather", "James", "Xavier", "Michelle", "Brian", "Nina",
+                "Kathleen", "Sophia", "Amir", "Douglas", "Zarley", "Beatrice",
+                "Theodora", "William", "Svetlana", "Charisse", "Yolanda",
+                "Gregorio", "Jean-Paul", "Evangelina", "Viktor", "Jacqueline",
+                "Francisco", "Tre"
+            };
+
+            List<string> descend = names.OrderByDescending(names => names).ToList();
+            foreach (string name in descend)
+            {
+                Console.WriteLine(name);
+            }
+
+            // Build a collection of these numbers sorted in ascending order
+            List<int> AscNumbers = new List<int>()
+            {
+                15, 8, 21, 24, 32, 13, 30, 12, 7, 54, 48, 4, 49, 96
+            };
+            List<int> AscNum = AscNumbers.OrderBy(nu => nu).ToList();
+            foreach(int nu in AscNum)
+            {
+                Console.WriteLine(nu);
+            }
+            Console.WriteLine();
+            // Output how many numbers are in this list
+            List<int> CountNumbers = new List<int>()
+            {
+                15, 8, 21, 24, 32, 13, 30, 12, 7, 54, 48, 4, 49, 96
+            };
+            var TotalCountNumbers = CountNumbers.Count();
+            Console.WriteLine(TotalCountNumbers);
+            Console.WriteLine();
+            // How much money have we made?
+            List<double> purchases = new List<double>()
+            {
+                2340.29, 745.31, 21.76, 34.03, 4786.45, 879.45, 9442.85, 2454.63, 45.65
+            };
+
+
 
 
         }
