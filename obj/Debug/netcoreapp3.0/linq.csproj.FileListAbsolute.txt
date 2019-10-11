@@ -1,0 +1,11 @@
+/Users/cbarringer/workspace/csharp/exercises/linq/obj/Debug/netcoreapp3.0/linq.csprojAssemblyReference.cache
+/Users/cbarringer/workspace/csharp/exercises/linq/obj/Debug/netcoreapp3.0/linq.AssemblyInfoInputs.cache
+/Users/cbarringer/workspace/csharp/exercises/linq/obj/Debug/netcoreapp3.0/linq.AssemblyInfo.cs
+/Users/cbarringer/workspace/csharp/exercises/linq/bin/Debug/netcoreapp3.0/linq
+/Users/cbarringer/workspace/csharp/exercises/linq/bin/Debug/netcoreapp3.0/linq.deps.json
+/Users/cbarringer/workspace/csharp/exercises/linq/bin/Debug/netcoreapp3.0/linq.runtimeconfig.json
+/Users/cbarringer/workspace/csharp/exercises/linq/bin/Debug/netcoreapp3.0/linq.runtimeconfig.dev.json
+/Users/cbarringer/workspace/csharp/exercises/linq/bin/Debug/netcoreapp3.0/linq.dll
+/Users/cbarringer/workspace/csharp/exercises/linq/bin/Debug/netcoreapp3.0/linq.pdb
+/Users/cbarringer/workspace/csharp/exercises/linq/obj/Debug/netcoreapp3.0/linq.dll
+/Users/cbarringer/workspace/csharp/exercises/linq/obj/Debug/netcoreapp3.0/linq.pdb
